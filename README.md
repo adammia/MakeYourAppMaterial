@@ -4,4 +4,4 @@ This XYZreader app (Project 5.) for Udacity's Android Basics Nanodegree by Googl
 ## Demo
 
 ### Pictures 
-![Phone demo screens] (https://imgur.com/a/h1iIyRg)
+https://imgur.com/fFp9qAw/kepek
