@@ -1,0 +1,87 @@
+<resources>
+
+    <style name="MainActivityTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DetailActivityTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LogoImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:layout_margin">@dimen/list_side_margin</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+    <style name="SwipeReFreshLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:padding">@dimen/list_side_margin</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="ArticleListToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:elevation">@dimen/elevation_medium</item>
+    </style>
+
+    <style name="FragmentImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/detail_photo_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="FrameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/photoPlaceholder</item>
+    </style>
+
+    <style name="FabIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:background">@drawable/add_fab_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:contentDescription">@string/action_share</item>
+        <item name="android:elevation">@dimen/fab_elevation</item>
+        <item name="android:focusable">true</item>
+        <item name="android:stateListAnimator">@anim/fab_state_list_anim</item>
+    </style>
+
+    <style name="LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginBottom">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:background">#333</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:paddingLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingRight">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingTop">@dimen/detail_metabar_vert_padding</item>
+    </style>
+
+    <style name="Thumbnail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/photoPlaceholder</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
